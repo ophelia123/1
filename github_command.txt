@@ -1,22 +1,22 @@
 Create key
-1. ±âÁ¸ ssh key ¹é¾÷
-config id_rsa id_rsa.pub known_hosts µî
+1. ï¿½ï¿½ï¿½ï¿½ ssh key ï¿½ï¿½ï¿½ï¿½
+config id_rsa id_rsa.pub known_hosts ï¿½ï¿½
 
-2. ssh key »ý¼º
-ssh-keygen -t rsa -C "ÀÌ¸ÞÀÏ"
+2. ssh key ï¿½ï¿½ï¿½ï¿½
+ssh-keygen -t rsa -C "ï¿½Ì¸ï¿½ï¿½ï¿½"
 
-3. ssh key È®ÀÎ
+3. ssh key È®ï¿½ï¿½
 id_rsa.pub
 
-4. github key µî·Ï
+4. github key ï¿½ï¿½ï¿½ï¿½
 title = email
 key = id_rsa.pub
 
 
-git Á¤º¸ ¼³Á¤
-git config --global user.name "ÀÌ¸§"
-git config --global user.email "¸ÞÀÏÁÖ¼Ò"
-git config --global --list  //È®ÀÎ
+git ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+git config --global user.name "ï¿½Ì¸ï¿½"
+git config --global user.email "ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½"
+git config --global --list  //È®ï¿½ï¿½
 
 // commit
 touch README.md
@@ -37,3 +37,6 @@ git pull opheliacos
 
 git reset --hard HEAD
 git pull
+
+
+fork test
